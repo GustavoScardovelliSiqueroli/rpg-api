@@ -1,0 +1,42 @@
+Voce e uma pessoa no escritorio, seu objetivo e apenas viver (ainda nao sei ao certo, nao quero algo como progredir na empresa nem nada do tipo), talvez nao ser demitido?.
+o jogo vai ser no estilo dungeon com caracteriscitas de rpg. Imagino algo como voce vai jogando ao longo do tempo e vai colecionando coisas e melhorando seu personagem cada vez que voce avanca.
+
+cada "movimento" vai ser uma hora do dia, o dia tem 8 horas e depois de terminar o dia voce comeca na hora 0 do proximo dia.
+
+SISTEMA DE COMPRAS:
+-O jogo vai ter um sistema de dinheiro (salario) que voce possa gastar comprando coisas que um assalariado compraria na vida real (roupas novas? canetas? algo assim...). SO PODE COMPRAR QUANDO ACABAR O DIA
+-O jogo tambem vai ter um outro sistema d compras que vai ser (a principio, ainda estou incerto) network? Onde o player vai juntando esse tipo de moeda para trocar em melhorias na empresa (cargos? itens diferntes? novos acessos?, imprssora infinita? Plano de saude? Aumentos? etc)
+
+O PLAYER:
+-dinheiro
+-network
+
+-produtividade (algo como o atack?)
+-energia (vida?)
+
+-mochila
+
+ITENS
+-cigarro (so pode ser usado no fumodromo)
+-copo (abastecer e beber cafe)
+etc.
+-papel
+
+As ideias de sala ate agora sao:
+-RH: Sala onde voce vai e geramente fudeu, vai ter algo ruim.
+-Cafe: Sala onde voce vai poder recuperar energia? algo assim.
+-sala do chefe
+-fumodromo (recuperar energia? aumentar produtividade?)
+-sala da impressora
+-sala do trabalho/ hora de trabalho
+
+
+EVENTOS
+-ao entrar na sala do fumodromo tem chance baixa de alguem ter roubado o big. Agora voce vai ter que repor.
+-ser dispensado mais cedo hoje.
+-ter que fazer hora extra.
+
+SISTEMA DE MECANICA
+-ao entrar em cada sada tem sua chance ou sempre verdadeira de pegar o evento da sala com nivel de COMPLEXIDADE que voce precisa enfrentar usando sua produtividade. Ex: Entrou na sala de reuniao com o chefe e voce precisa apresentar uma nova ideia pra ele. nivel de complexidade: 10. voce tem 7 de produtividade e mais uns itens que aumentam em 3 pontos. Resultado: voce perde apenas uma energia e ganha algum item/ ganha network ou ganha energia etc.
+-quando voce ficar sem energia voce tem que descansar. Ficar uma hora do tem REAL sem dar nenhum movimento que ira te gerar um pouco de energia que voce pode continuar jogando.
+-o jogo em si nunca acaba, voce apenas vai progredindo ou regredindo.
