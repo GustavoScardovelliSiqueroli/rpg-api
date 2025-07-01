@@ -1,0 +1,36 @@
+[project]
+name = "rpg-api"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "gustavo",email = "gustavosecardovelli@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.115.14,<0.116.0)",
+    "gunicorn (>=23.0.0,<24.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "rpg_api", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^6.0.1"
+ruff = "^0.12.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.taskipy.tasks]
+pre_test = 'task lint'
+test = 'pytest -p no:warnings -vv'
+lint = 'ruff check . ; ruff check . --diff'
+format = 'ruff check . --fix ; ruff format .'
+upgrade = 'alembic upgrade head'
+
