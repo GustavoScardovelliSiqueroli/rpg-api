@@ -1,0 +1,9 @@
+from typing import Protocol
+
+from rpg_api.domain.models.room import Room
+
+
+class RoomRepository(Protocol):
+    def get_by_id(self, id_room: int) -> Room: ...
+    def get_by_name(self, name: str) -> Room: ...
+    def create(self, data: Room) -> Room: ...
