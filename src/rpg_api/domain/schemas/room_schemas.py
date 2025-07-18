@@ -1,0 +1,2 @@
+class RoomCreateRequest:
+    name: str
