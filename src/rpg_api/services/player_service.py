@@ -1,7 +1,9 @@
 from rpg_api.config import get_settings
 from rpg_api.domain.models.game_state import GameState
 from rpg_api.domain.models.player import Player
-from rpg_api.domain.repositories.game_state_repository import GameStateRepository
+from rpg_api.domain.repositories.game_state_repository import (
+    GameStateRepository,
+)
 from rpg_api.domain.repositories.player_repository import PlayerRepository
 from rpg_api.domain.schemas.player_schemas import (
     PlayerCreateRequest,
@@ -18,7 +20,9 @@ class PlayerService:
         self.player_repository = player_repository
         self.game_state_repository = game_state_repository
 
-    def create_player(self, player_data: PlayerCreateRequest) -> PlayerCreateResponse:
+    def create_player(
+        self, player_data: PlayerCreateRequest
+    ) -> PlayerCreateResponse:
         settings = get_settings()
         game_state = GameState(
             id_currente_room=None,
